@@ -8,7 +8,7 @@ int main() {
 
     for (int i = 0; i < count; i++) {
         temporarily = 0;
-        cout << "請輸入第" << i+1 << "筆存款:" ;
+        cout << "請輸入第" << i + 1 << "筆存款:" ;
         cin >> temporarily;
         total = total + temporarily;
     }
