@@ -9,7 +9,7 @@ int main() {
         for (int j = height-i; j > 0; j--) {
             cout << " ";
         }
-        for (int k = 1; k <= 2 * i-1; k++) {
+        for (int k = 1; k <= 2 * i - 1; k++) {
             cout << "*";
         }
     cout << "\n";
